@@ -103,6 +103,14 @@ nav li a button{
 
 
 /* zachRobot */
+
+#playlist_wrapper{
+  background-image: url("./assets/playlist-banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
 #robo {
   text-align: center;
   font-size: 50px;
@@ -146,6 +154,19 @@ h2 {
   flex-wrap: wrap;
 }
 
+#Robo-Talk div {
+  display: flex;
+  justify-content: center;
+  background-image: url("./assets/about-us-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  font-weight: bold;
+  border-radius: 25px;
+  text-shadow: 2px 3px white;
+  opacity: 0.75;
+  text-emphasis-color: black;
+}
 
 iframe {
   font-size: 30px;
@@ -157,6 +178,7 @@ iframe {
   background-position: center;
   background-repeat: no-repeat; 
   background-size: cover;
+  opacity: 0.3;
 }
 
 #about_profile div {
