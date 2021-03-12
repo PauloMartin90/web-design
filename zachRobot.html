@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css//base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/modules.css">
+    <!-- <script src="//unpkg.com/brain.js"></script> -->
+  </head>
+  <body>
+    
+
+    <h1>Hello World, I am Robo</h1>
+    <nav>
+      <ul>
+        <li>Stuff here</li>
+        <li>Stuff here</li>
+        <li>Stuff here</li>
+        <li>Stuff here</li>
+        <li>Stuff here</li>
+      </ul>
+    </nav>
+
+
+    <h2 id='robo'>mood</h2>
+    <div id='d'> IMAGE HERE</div>
+
+
+    <h2>get my spotify playlist</h2>
+  <div id="robo_playlist">
+    <form action='/spotifyPlaylistResults' method='POST'>
+      <input type='hidden' name='emotionFromRobot' id='roboIdentify' value=''>  <!--output from the robot goes here-->
+      <input type='submit' value='Go to Mood Playsit'>
+    </form>
+    <a href='/'><button>Back to Home</button></a>
+  </div>
+
+    <script src='/styles/js/zach.js'></script>
+  </body>
+</html>
